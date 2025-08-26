@@ -1,0 +1,35 @@
+site_name: CP2025 Docs
+site_description: Documentación del proyecto CP2025 (Visual FoxPro 9.0 + foxbin2prg)
+repo_url: https://github.com/YECAPP/CP2025
+repo_name: YECAPP/CP2025
+theme:
+  name: material
+  language: es
+  features:
+    - content.code.copy
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+nav:
+  - Inicio: index.md
+  - Clases:
+      - Factura:
+        - Dual: facturacion_dual.md
+      - Reportes: reportes.md
+  
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
