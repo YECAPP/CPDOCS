@@ -1,6 +1,6 @@
 site_name: CP2025 Docs
 site_description: Documentación del proyecto CP2025 (Visual FoxPro 9.0 + foxbin2prg)
-repo_url: https://github.com/YECAPP/CP2025
+site_url: https://yecapp.github.io/CPDOCS/
 repo_name: YECAPP/CP2025
 theme:
   name: material
